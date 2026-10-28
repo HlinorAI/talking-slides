@@ -1,5 +1,6 @@
 # talking-slides
 
+![tests](https://github.com/HlinorAI/talking-slides/actions/workflows/tests.yml/badge.svg)
 **Aufnahme reinziehen — Präsentation bekommen, die sich selbst abspielt.**
 Vorlesung, Seminar oder ein Video-Link → Folien mit Kernaussagen, vollständiges
 Transkript und Kapitel. Komplett lokal: Aufnahmen verlassen Ihren Rechner
