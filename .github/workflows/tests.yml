@@ -13,6 +13,8 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+      - name: Install system packages (ffmpeg, fonts)
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
       - name: Install dependencies
         run: pip install -r requirements.txt -r requirements-dev.txt
       - name: Run tests

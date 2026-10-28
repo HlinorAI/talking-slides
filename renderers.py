@@ -16,18 +16,36 @@ import themes as themes_mod
 from backdrop import make_backdrop
 from slidebuilder import format_ts
 
-FONT_DIR = "/System/Library/Fonts/Supplemental"
-FONT_REG = os.path.join(FONT_DIR, "Arial.ttf")
-FONT_BOLD = os.path.join(FONT_DIR, "Arial Bold.ttf")
+# TTF для встраивания в PDF: первый существующий путь из кандидатов.
+_FONT_CANDIDATES = {
+    "SlideFont": [
+        "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+        "C:/Windows/Fonts/arial.ttf",
+    ],
+    "SlideFont-Bold": [
+        "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+        "C:/Windows/Fonts/arialbd.ttf",
+    ],
+}
 
 PAGE_W, PAGE_H = landscape(A4)
 MARGIN = 56
 
 
 def _ensure_fonts():
-    if "SlideFont" not in pdfmetrics.getRegisteredFontNames():
-        pdfmetrics.registerFont(TTFont("SlideFont", FONT_REG))
-        pdfmetrics.registerFont(TTFont("SlideFont-Bold", FONT_BOLD))
+    if "SlideFont" in pdfmetrics.getRegisteredFontNames():
+        return
+    for name, candidates in _FONT_CANDIDATES.items():
+        path = next((p for p in candidates if os.path.exists(p)), None)
+        if path is None:
+            raise FileNotFoundError(
+                f"{name}: не найден TTF-шрифт (Arial, DejaVu или Liberation). "
+                "На Linux: sudo apt install fonts-dejavu-core")
+        pdfmetrics.registerFont(TTFont(name, path))
 
 
 def _rgb(c):
