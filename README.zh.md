@@ -1,6 +1,7 @@
 # talking-slides
 
 ![tests](https://github.com/HlinorAI/talking-slides/actions/workflows/tests.yml/badge.svg)
+
 **拖入一段录音，得到一份会"自己开口讲"的演示文稿。**
 课程、研讨会或视频链接 → 带要点的幻灯片、完整逐字稿和章节。完全本地化：
 录音永远不会离开你的电脑——无需 API 密钥，不依赖云端。

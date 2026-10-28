@@ -1,6 +1,7 @@
 # talking-slides
 
 ![tests](https://github.com/HlinorAI/talking-slides/actions/workflows/tests.yml/badge.svg)
+
 **Suelta una grabación — obtén una presentación que se reproduce sola.**
 Una clase, un seminario o un enlace de vídeo → diapositivas con ideas
 clave, transcripción completa y capítulos. Todo en local: las grabaciones

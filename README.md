@@ -1,6 +1,7 @@
 # talking-slides
 
 ![tests](https://github.com/HlinorAI/talking-slides/actions/workflows/tests.yml/badge.svg)
+
 **Drop in a recording — get a presentation that plays itself.**
 A lecture, a seminar, or a video link → slides with takeaways, a full
 transcript, and chapters. Fully local: recordings never leave your
