@@ -1,0 +1,57 @@
+/* audio-transcriber — русский */
+
+"Drop audio or video here" = "Перетащите аудио или видео сюда";
+"any format · or paste a video link below" = "любой формат · или вставьте ссылку на видео ниже";
+"Drag & drop zone for audio or video" = "Зона перетаскивания аудио или видео";
+"Choose File" = "Выбрать файл";
+"Video link (YouTube, VK, …)" = "Ссылка на видео (YouTube, VK, …)";
+"Video link" = "Ссылка на видео";
+"Download and Process" = "Скачать и обработать";
+"Language" = "Язык";
+"Export to PDF" = "Экспорт в PDF";
+"Export to PPTX" = "Экспорт в PPTX";
+"HTML player" = "HTML-плеер";
+"Presentation language" = "Язык презентации";
+"Auto (detect)" = "Авто (определить)";
+"Cancel" = "Отменить";
+"Ready" = "Готов к работе";
+
+"stage.download" = "Загрузка видео";
+"stage.transcribe" = "Транскрибация";
+"stage.slides" = "Построение слайдов";
+"stage.render" = "Рендер";
+"stage.theme" = "Оформление";
+"stage.fragments" = "Фрагменты аудио";
+"Processing" = "Обработка";
+"Progress: %@ of %ld%%" = "%1$@: %2$ld%%";
+"Downloading video…" = "Загрузка видео…";
+"Transcribing: %@" = "Транскрибация: %@";
+" (%ld%%)" = " (%ld%%)";
+"Detected language: %@" = "Определён язык: %@";
+
+"Unsupported file: %@" = "Неподдерживаемый файл: %@";
+"Enter a video link" = "Вставьте ссылку на видео";
+"Link must start with http:// or https://" = "Ссылка должна начинаться с http:// или https://";
+"Turn on at least one output format" = "Включите хотя бы один формат вывода";
+
+"Done: %ld slide → %@" = "Готово: %ld слайд → %@";
+"Done: %ld few slides → %@" = "Готово: %ld слайда → %@";
+"Done: %ld slides → %@" = "Готово: %ld слайдов → %@";
+
+"Error: %@" = "Ошибка: %@";
+"unknown error" = "неизвестная ошибка";
+"Error: process exited without a result" = "Ошибка: процесс завершился без результата";
+"Error: process exited with an error" = "Ошибка: процесс завершился с кодом, отличным от 0";
+"Cancelled" = "Отменено";
+
+"Open PDF" = "Открыть PDF";
+"Open PPTX" = "Открыть PPTX";
+"Open in Browser" = "Открыть в браузере";
+"Open Folder" = "Открыть папку";
+
+"Project python not found:\n%@\nRun ./install.sh in the project folder or set AUDIO_TRANSCRIBER_DIR." = "Не найден python проекта:\n%@\nЗапустите ./install.sh в директории проекта или задайте AUDIO_TRANSCRIBER_DIR.";
+"pipeline.py not found:\n%@\nSet AUDIO_TRANSCRIBER_DIR to the audio-transcriber project folder." = "Не найден pipeline.py:\n%@\nЗадайте AUDIO_TRANSCRIBER_DIR с директорией проекта audio-transcriber.";
+"Failed to launch python: %@" = "Не удалось запустить python: %@";
+
+"About Audio Transcriber" = "О Audio Transcriber";
+"Quit Audio Transcriber" = "Завершить Audio Transcriber";

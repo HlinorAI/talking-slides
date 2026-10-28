@@ -1,0 +1,3 @@
+# Для тестов: .venv/bin/pip install -r requirements-dev.txt
+pytest>=9
+numpy>=1.26

@@ -1,0 +1,57 @@
+/* audio-transcriber — English (development region) */
+
+"Drop audio or video here" = "Drop audio or video here";
+"any format · or paste a video link below" = "any format · or paste a video link below";
+"Drag & drop zone for audio or video" = "Drag & drop zone for audio or video";
+"Choose File" = "Choose File";
+"Video link (YouTube, VK, …)" = "Video link (YouTube, VK, …)";
+"Video link" = "Video link";
+"Download and Process" = "Download and Process";
+"Language" = "Language";
+"Export to PDF" = "Export to PDF";
+"Export to PPTX" = "Export to PPTX";
+"HTML player" = "HTML player";
+"Presentation language" = "Presentation language";
+"Auto (detect)" = "Auto (detect)";
+"Cancel" = "Cancel";
+"Ready" = "Ready";
+
+"stage.download" = "Downloading video";
+"stage.transcribe" = "Transcribing";
+"stage.slides" = "Building slides";
+"stage.render" = "Rendering";
+"stage.theme" = "Theming";
+"stage.fragments" = "Cutting audio fragments";
+"Processing" = "Processing";
+"Progress: %@ of %ld%%" = "%1$@: %2$ld%%";
+"Downloading video…" = "Downloading video…";
+"Transcribing: %@" = "Transcribing: %@";
+" (%ld%%)" = " (%ld%%)";
+"Detected language: %@" = "Detected language: %@";
+
+"Unsupported file: %@" = "Unsupported file: %@";
+"Enter a video link" = "Enter a video link";
+"Link must start with http:// or https://" = "Link must start with http:// or https://";
+"Turn on at least one output format" = "Turn on at least one output format";
+
+"Done: %ld slide → %@" = "Done: %ld slide → %@";
+"Done: %ld few slides → %@" = "Done: %ld slides → %@";
+"Done: %ld slides → %@" = "Done: %ld slides → %@";
+
+"Error: %@" = "Error: %@";
+"unknown error" = "unknown error";
+"Error: process exited without a result" = "Error: process exited without a result";
+"Error: process exited with an error" = "Error: process exited with an error";
+"Cancelled" = "Cancelled";
+
+"Open PDF" = "Open PDF";
+"Open PPTX" = "Open PPTX";
+"Open in Browser" = "Open in Browser";
+"Open Folder" = "Open Folder";
+
+"Project python not found:\n%@\nRun ./install.sh in the project folder or set AUDIO_TRANSCRIBER_DIR." = "Project python not found:\n%@\nRun ./install.sh in the project folder or set AUDIO_TRANSCRIBER_DIR.";
+"pipeline.py not found:\n%@\nSet AUDIO_TRANSCRIBER_DIR to the audio-transcriber project folder." = "pipeline.py not found:\n%@\nSet AUDIO_TRANSCRIBER_DIR to the audio-transcriber project folder.";
+"Failed to launch python: %@" = "Failed to launch python: %@";
+
+"About Audio Transcriber" = "About Audio Transcriber";
+"Quit Audio Transcriber" = "Quit Audio Transcriber";
